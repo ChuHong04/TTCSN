@@ -8,6 +8,9 @@ import Regester from "./Regester"
 import Profile from "./Profile"
 import SaleProducts from "./SaleProducts"
 import Order from "./Oder"
+import Laptop from "./Laptop"
+import Keyboard from "./Keyboard"
+import Mouse from "./Mouse"
 const PublicPage=[
     {path:"/", component: Home, layout: Defaultlayout},
     {path:"/product/:id", component: Products, layout: Defaultlayout},
@@ -18,7 +21,9 @@ const PublicPage=[
     {path:"/order", component: Order, layout: Defaultlayout},
     {path:"/login", component: Login, layout: null},
     {path:"/regester", component: Regester, layout: null},
-    
+    {path:"/laptop", component: Laptop, layout: Defaultlayout},
+    {path:"/keyboard", component: Keyboard, layout: Defaultlayout},
+    {path:"/mouse", component: Mouse, layout: Defaultlayout},
 ]
 const PrivatePage=[
 
